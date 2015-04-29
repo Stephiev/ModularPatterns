@@ -1,0 +1,31 @@
+{
+  "name": "PJS_and_Gruntfile_Apr29",
+  "version": "0.1.0",
+  "description": "in class project",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+    "scripts": {
+    "test": "./node_modules/grunt-cli/bin/grunt test"
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/Stephiev/ModularPatterns.git"
+  },
+  "author": "stephievictoria@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stephiev/ModularPatterns/issues"
+  },
+  "homepage": "https://github.com/Stephiev/ModularPatterns",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-simple-mocha": "^0.4.0",
+    "mocha": "^2.2.4"
+  }
+}
