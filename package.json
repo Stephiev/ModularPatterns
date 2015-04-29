@@ -11,14 +11,14 @@
   },
     "repository": {
     "type": "git",
-    "url": "https://github.com/Stephiev/PJSON_and_Gruntfile.git"
+    "url": "https://github.com/Stephiev/ModularPatterns.git"
   },
   "author": "stephievictoria@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Stephiev/PJSON_and_Gruntfile/issues"
+    "url": "https://github.com/Stephiev/ModularPatterns/issues"
   },
-  "homepage": "https://github.com/Stephiev/PJSON_and_Gruntfile",
+  "homepage": "https://github.com/Stephiev/ModularPatterns",
   "devDependencies": {
     "chai": "^2.3.0",
     "grunt": "^0.4.5",

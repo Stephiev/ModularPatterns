@@ -25,24 +25,15 @@ module.exports = function(grunt) {
       },
       // Syntatic meaning
       options: {
-        node: true,
-        globals: {
-          describe: true,
-          it: true,
-          before: true,
-          after: true,
-          beforeEach: true,
-          afterEach: true
-        }
+        jshintrc: true
       },
     },
 
- simplemocha: {
-    all: {
-      src: ['test/**/*.js']
+    simplemocha: {
+      all: {
+        src: ['test/**/*.js']
+      }
     }
-  }
-
   });
   // Grunt + CLI string followed by an array of the tasts
   // we want to run
