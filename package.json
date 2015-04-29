@@ -1,11 +1,24 @@
 {
-  "name": "PJS_and_Gruntfile",
+  "name": "PJS_and_Gruntfile_Apr29",
   "version": "0.1.0",
   "description": "in class project",
   "main": "greet.js",
   "directories": {
     "test": "test"
   },
+    "scripts": {
+    "test": "./node_modules/grunt-cli/bin/grunt test"
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/Stephiev/PJSON_and_Gruntfile.git"
+  },
+  "author": "stephievictoria@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stephiev/PJSON_and_Gruntfile/issues"
+  },
+  "homepage": "https://github.com/Stephiev/PJSON_and_Gruntfile",
   "devDependencies": {
     "chai": "^2.3.0",
     "grunt": "^0.4.5",
@@ -14,14 +27,5 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-simple-mocha": "^0.4.0",
     "mocha": "^2.2.4"
-  },
-  "scripts": {
-    "test": "./node_modules/grunt-cli/bin/grunt test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "urls"
-  },
-  "author": "stephievictoria@gmail.com",
-  "license": "MIT"
+  }
 }
